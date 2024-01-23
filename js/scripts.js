@@ -59,4 +59,4 @@
         var thisAlert = $(input).parent();
         $(thisAlert).removeClass('alert-validate');
     }
-})(jQuery);
+})(jQuery); 
