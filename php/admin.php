@@ -17,12 +17,13 @@ if (isset($_SESSION['user_type']) && isset($_SESSION['username']) && isset($_SES
         $row = mysqli_fetch_assoc($result);
         echo "hello:".$username;
     } else {
-        exit("نام کاربری یا رمز عبور نامعتبر است");
+        echo '<script>window.alert("لطفا نام کاربری ورمزعبورا به درستی وارد کنید");window.location.href = "../index.html";</script>';
     }
 
     mysqli_close($con);
 } else {
-    exit("<h1 style=color:red;text-align:center;>نام کاربری یا رمز عبور نامعتبر است<br /><span>لطفا نام کاربری و رمز عبورا به درستی وارد کنید</span><br /><br /> <a href='../index.html'>بازگشت به صفحه‌ی اصلی</a></h1>");}
+    echo '<script>window.alert("لطفا نام کاربری ورمزعبورا به درستی وارد کنید");window.location.href = "../index.html";</script>';
+}
 ?>
 <html>
     <head>
