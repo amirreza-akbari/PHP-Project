@@ -494,3 +494,10 @@ input.input100 {
   text-align: center !important;
 }
 
+.timer {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}

@@ -21,8 +21,8 @@ if (isset($_SESSION['user_type']) && isset($_SESSION['username']) && isset($_SES
         $_SESSION['username'] = $username;
         $_SESSION['filename'] = $filename;
     } else {
-		exit("<h1 style=color:red;text-align:center;>نام کاربری یا رمز عبور نامعتبر است<br /><span>لطفا نام کاربری و رمز عبورا به درستی وارد کنید</span><br /><br /> <a href='../index.html'>بازگشت به صفحه‌ی اصلی</a></h1>");
-    }
+		header('Location: ../');//TODO
+	    }
 
     mysqli_close($con);
 } else {
@@ -52,12 +52,13 @@ if (isset($_SESSION['user_type']) && isset($_SESSION['username']) && isset($_SES
 				<br />
 					<a href="../pdf/<?php echo $filename; ?>" download="<?php echo $filename; ?>" class="login100-form-btn">دانلود</a><br />
 					<a href="../php/logout.php" class="login100-form-btn">خروج</a>
+					<div id="timer" class="timer">زمان باقی‌مانده: <span id="countdown" class="timer"></span></div>
 				<br />
 			</div>
 		</div>
 	</div>
-
 	<script src="../js/jquery-3.1.1.min.js"></script>
 	<script  src="../js/scripts.js"></script>
+	<script  src="../js/timer.js"></script>
 </body>
 </html>
