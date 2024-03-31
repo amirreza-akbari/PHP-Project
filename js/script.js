@@ -7,7 +7,7 @@
  var lineColor = '#fff';
  var velocityMultiplier = 0.1; // ضریب سرعت
  
- // تنظیم اندازه صفحه
+ // تنظیم اندازه صفحه 
  canvas.width = window.innerWidth;
  canvas.height = window.innerHeight * 0.9; // 90% از ارتفاع صفحه
  
