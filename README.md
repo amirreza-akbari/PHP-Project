@@ -1,1 +1,1 @@
-vless://3a4a5eac-d4e3-4255-ad7c-b682f95fb61d@dnschecker.org:443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&fp=chrome&type=grpc&serviceName=@ipV2Ray&sni=dm.irandtehran.org#%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85+%D9%85%D8%A7+%7C+%40configMs
+
