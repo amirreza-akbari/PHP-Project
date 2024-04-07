@@ -1,1 +1,1 @@
-
+vless://1da258c0-bd2d-454f-e1ca-f42e20033483@103.184.44.0066:443?mode=gun&security=tls&encryption=none&alpn=http/1.1&fp=chrome&type=grpc&serviceName=@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray,@AfV2ray&sni=nimkAtV2ray.jonedel.com#%40AfV2ray
